@@ -12,10 +12,10 @@ public class Item {
 		this.isAvailable = true;
 	}
 	public String toString() {
-		
-		Object camcorderList;
+
 		// Write your codes here
-		String itemInfo = String.format("%-10s %-30s %-10s %-10s", getAssetTag(),
+		String itemInfo = String.format("%-10s %-30s %-10s %-10s"
+				,getAssetTag(),
 				description, 
 				showAvailability(isAvailable),
 				dueDate);
